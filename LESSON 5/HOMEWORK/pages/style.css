@@ -1,0 +1,93 @@
+
+h3{
+
+  position: absolute;
+  width: 492px;
+  height: 45px;
+  left: calc(50% - 492px/2);
+  top: -2px;
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 45px;
+  text-align: center;
+  
+  color: #000000;
+}
+p{
+  position: absolute;
+width: 783px;
+height: 30px;
+left: calc(50% - 783px/2 + 0.5px);
+top: 71px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 30px;
+text-align: center;
+color: #000000;
+}
+img{
+  position: absolute;
+  height: 500px;
+  left: 21%;
+  right: 0%;
+  top: 200px;
+  border-radius: 0px;
+}
+.header-btn {
+  border: none;
+  display: flex;
+  justify-content: center;
+  padding-top: 750px;
+}
+
+.btn1 {
+  border: none;
+  width: 189px;
+  height: 40px;
+  color: white;
+  background: #6F2CFF;
+  border-radius: 30px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.btn2 {
+  border: none;
+  width: 187px;
+  height: 40px;
+  background: #FFFFFF;
+  border-radius: 30px;
+  color: #6F2CFF;
+  cursor: pointer;
+}
+h2{
+  position: absolute;
+width: 507px;
+height: 45px;
+left: calc(50% - 507px/2 + 0.5px);
+top: 840px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 45px;
+/* identical to box height, or 112% */
+text-align: center;
+color: #000000;
+}
+.img2{
+position: relative;
+height: 100px;
+left: 100%;
+right: 150%;
+top: 90px;
+
+border-radius: 7px 7px 0px 0px;
+}

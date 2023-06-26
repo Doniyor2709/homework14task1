@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BY trend</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav>
+    <div class="container nav-container">
+      <div class="nav-logo">
+        <img src="../images/logo (1).png" alt="bu erda logo bor">
+      </div>
+      <ul class="nav-list">
+        <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Contacts</a></li>
+        <div class="nav-btn">
+          <li class="nav-item"><button>Log in</button></li>
+          <li class="nav-item"><button>Open an account</button></li>
+          <li class="nav-item"><button>EN</button></li>
+        </div>
+      </ul>
+
+    </div>
+  </nav>
+
+  <main>
+    <section>
+      <div class="container">
+        <div class="form">
+          <img src="../images/logo (1).png" alt="bu erda logo bor">
+          <h1>Welcome to ByTrend!</h1>
+          <p>Already have an account?</p>
+          <a href="#">Log in</a>
+          <label class="left" for="firstname">First name*</label>
+          <input
+            name="firstName"
+            required
+            placeholder="Write firstname"
+            type="text"
+            id="firstname"
+            list="names"
+            oninvalid="this.setCustomValidity('Please fill firstname !')"
+          />
+          <label class="right" for="lastname">Last name*</label>
+          <input
+            name="lastName"
+            required
+            placeholder="Your surname"
+            type="text"
+            id="lastname"
+          />
+          <label class="date" for="date">Date</label>
+          <input type="date"
+          id="date"
+          />
+          <input 
+          checked
+          required
+          name="gender"
+          value="male"
+          type="radio"
+          id="male"
+        />
+        <label class="male" for="male">Male</label>
+        
+        <input
+          required
+          name="gender"
+          value="female"
+          type="radio"
+          id="female"
+        />
+        <label class="female" for="female">Female</label>
+        <p id="p">Gender*</p>
+        <div class="butto">
+          <button>
+            Continue
+          </button>
+        </div>
+      </div>
+      </div>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1160px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+
+nav {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  background: #070707;
+}
+
+.nav-container{
+  display: flex;
+  justify-content:space-between ;
+  align-items: center;
+ 
+
+  
+
+}
+
+
+
+
+

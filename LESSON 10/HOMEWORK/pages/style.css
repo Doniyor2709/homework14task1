@@ -1,0 +1,294 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: block;
+  max-width: 1160px;
+  
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;;
+ 
+}
+
+
+
+
+a {
+  text-decoration: none;
+}
+
+.nav-list {
+  display: flex;
+  gap: 32px;
+  list-style-type: none;
+  justify-content: flex-end;
+  margin-top: -32px;
+  
+}
+
+
+.nav-link {
+  color: rgba(0, 0, 0, 0.85)
+}
+
+
+.nav-btn{
+  display: flex;
+  gap: 32px;
+  list-style-type: none;
+  
+}
+
+.nav-logo{
+  position: relative;
+  padding-top:26px;
+ 
+}
+
+.form{
+height: 700px;
+width: 496px;
+border-radius: 10px;
+position: absolute;
+left: 33.84%;
+right: 31.84%;
+top: 13.69%;
+bottom: 15.67%;
+background: #ffffff;
+box-shadow: 0px 12px 16px rgba(0, 0, 0, 0.10), 0px 4px 56px rgba(0, 0, 0, 0.5);
+border-radius: 10px;
+}
+.form img{
+  position: absolute;
+  left: 40.27%;
+  right: 46.3%;
+  top: 5.54%;
+  bottom: 84.62%;
+}
+
+.form h1{
+  position: absolute;
+  left: 22.31%;
+  top: 14.69%;
+  bottom: 78.56%;
+  font-family: 'Segoe UI';
+font-style: normal;
+font-weight: 700;
+font-size: 29px;
+line-height: 39px;
+
+
+
+color: rgba(0, 0, 0, 0.85);
+}
+
+.form p{
+  position: absolute;
+  left: 28.43%;
+  
+top: 22.98%;
+bottom: 74.52%;
+
+font-family: '?????';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #444150;
+
+}
+
+.form a{
+  position: absolute;
+left: 65.27%;
+top: 22.98%;
+bottom: 74.52%;
+text-decoration: underline;
+
+font-family: 'Segoe UI';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 26px;
+color: #01BAB3;
+}
+
+.left{
+  display: inline-block;
+  position: relative;
+  font-size: 15px;
+  top: 200px;
+  left: 7%;
+  
+
+}
+
+#firstname,
+select,
+textarea {
+  display: block;
+  position: relative;
+  font-size: 13px;
+  top: 200px;
+  left: 7%;
+  border-radius: 6px;
+  background: #FFFFFF;
+border: 1px solid #c9c9c9;
+padding: 10px 20px;
+  
+}
+
+.right{
+  display: inline-block;
+  position: relative;
+  font-size: 15px;
+  top: 147px;
+  left: 52%;
+}
+
+#lastname,
+select,
+textarea {
+  display: block;
+  position: relative;
+  font-size: 13px;
+  top: 146px;
+  left: 52%;
+  border-radius: 6px;
+  background: #FFFFFF;
+border: 1px solid #c9c9c9;
+padding: 10px 20px;
+
+}
+
+.date{
+  position:relative;
+  display: inline-block;
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  top: 153px;
+  left: 7%;
+}
+
+#date{
+  box-sizing: border-box;
+
+  position: absolute;
+  left: 7%;
+  right: 7%;
+  top: 40%;
+  
+  padding: 10px 20px;
+  background: #FFFFFF;
+  border: 1px solid #D9D9D9;
+  border-radius: 6px;
+}
+
+
+
+.male{
+  position: absolute;
+  right: 33%;
+  
+  top: 49%;
+  bottom: 29.17%;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  box-sizing: border-box;
+}
+#male{
+  position: absolute;
+left: 54.5%;
+top: 50%;
+background: #01BAB3;
+
+}
+
+
+.female{
+  position: absolute;
+  left: 15%;
+  
+  top: 49%;
+  bottom: 29.17%;
+  
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  box-sizing: border-box;
+
+
+}
+
+#female{
+  position: absolute;
+left: 10.5%;
+top: 50%;
+background: #01BAB3;
+
+}
+
+#p{
+  position: absolute;
+  position: absolute;
+  left: 7%;
+  
+  top: 47%;
+  bottom: 29.17%;
+
+font-family: 'Segoe UI';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+
+color: #444150;
+}
+
+.butto{
+  position: absolute;
+left: 45.83%;
+right: 48.68%;
+top: 82.02%;
+bottom: 15.67%;
+
+font-family: 'Segoe UI';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height */
+
+text-align: center;
+
+/* #FFFFFF */
+
+color: #FFFFFF;
+background-color: aquamarine;
+position: absolute;
+left: 34.77%;
+right: 34.77%;
+top: 80.87%;
+bottom: 14.52%;
+
+/* #01BAB3 */
+border: none;
+background: #01BAB3;
+border-radius: 4px;
+
+}
